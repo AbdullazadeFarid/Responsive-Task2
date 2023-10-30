@@ -1,0 +1,44 @@
+#main .section {
+  background-color: #2a7cc7;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+#main .section .section_items .title {
+  font-size: 17px;
+  color: #ECECEC;
+  font-weight: 700;
+}
+#main .section .section_items .text {
+  COLOR: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 575px) {
+  #main .section .section_items .text {
+    width: 336px;
+  }
+}
+#main .section .section_items .image {
+  width: 24%;
+}
+@media (max-width: 575px) {
+  #main .section .section_items .image {
+    width: 30%;
+  }
+}
+#main .section .section_items .stars {
+  margin-top: 4%;
+}
+#main .section .bottom_text {
+  color: #ECECEC;
+  font-size: 30px;
+}
+#main .section .bottom_text .profession {
+  margin-top: -5%;
+}/*# sourceMappingURL=style.css.map */

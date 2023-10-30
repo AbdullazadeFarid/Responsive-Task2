@@ -1,0 +1,62 @@
+@import "./mixins";
+
+
+
+#main{
+
+    .section{
+        background-color: #2a7cc7;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+
+        .section_items{
+
+            .title{
+                font-size: 17px;
+                 color: #ECECEC;
+                 font-weight: 700;
+
+            }
+            .text{
+
+                COLOR: #FFF;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 36px;
+                font-family: 'Poppins', sans-serif;
+                @include mobile{
+                    width: 336px;
+                }
+
+            }
+            .image{
+                width: 24%;
+                @include mobile{
+                    width: 30%;
+                }
+
+            }
+
+            .stars{
+                margin-top: 4%;
+}
+
+            }
+            .bottom_text{
+                color: #ECECEC;
+                font-size: 30px;
+                .name{
+
+                }
+                .profession{
+                    margin-top: -5%;
+
+                }
+
+            }
+        }
+    }
